@@ -1,0 +1,280 @@
+id,game,mock-mc,mock-tm,tm-rating,mock-tc,tc-rating,mock-as,as-rating,consensus
+54528,Super Mario 64,90,0.98,9.0/10,1,9.2/10,0.92,4.5/5,No consensus yet.
+52371,Super Mario Sunshine,88,0.93,8.2/10,0.95,8.3/10,0.88,4.1/5,No consensus yet.
+23860,Super Mario 64 DS,77,0.85,7.4/10,0.87,7.5/10,0.86,4.1/5,No consensus yet.
+27024,Super Mario Galaxy,95,0.99,8.9/10,1,9.1/10,0.91,4.5/5,No consensus yet.
+27036,Super Mario Galaxy 2,95,0.98,8.8/10,1,8.9/10,0.95,4.8/5,No consensus yet.
+27102,Super Mario 3D Land,85,0.95,8.2/10,0.95,8.2/10,0.87,4.2/5,With its (literal) eyepopping stereoscopic levels and clever use of depth-of-field~ Super Mario 3D Land is a rare 3DS title that uses the console's central gimmick to enhance the gameplay experience~ leaving a platformer that is unlike anything else on the market.
+27974,Super Mario 3D World,89,0.97,8.5/10,0.98,8.7/10,0.91,4.5/5,No consensus yet.
+23767,Captain Toad: Treasure Tracker,71,0.9,7.5/10,0.9,7.2/10,0.89,4.3/5,No consensus yet.
+28026,Super Mario Odyssey,95,0.98,8.9/10,0.99,8.9/10,0.92,4.5/5,No consensus yet.
+487916,Super Mario 3D World: Bowser's Fury,83,0.94,8.1/10,0.95,8.0/10,0.91,4.3/5,No consensus yet.
+487914,Super Mario 3D All Stars,72,0.82,7.1/10,0.81,6.9/10,0.59,3.3/5,No consensus yet.
+24933,New Super Mario Bros (DS),83,0.95,8.1/10,0.94,8.0/10,0.88,4.3/5,Boasting slick 3D visuals and smart updates to the Mario gameplay of yore~ New Super Mario Bros successfully reinvigorates the classic 2D platformer for a new generation of gaming.
+24493,New Super Mario Bros Wii,81,0.95,7.9/10,0.93,7.7/10,0.84,4.2/5,New Super Mario Bros Wii takes the already-successful gameplay of its predecessor and builds upon it with more-elaborate level design~ unique new powerups~ and a robust multiplayer experience~ leading to a must-have family-gaming experience for any Wii owner.
+24169,Super Mario All-Stars,57,0.56,5.7/10,0.43,5.3/10,0.7,3.9/5,A loveless re-release of a classic collection~ Super Mario All-Stars might serve as an effective last-resort for players who can't find any other (presumably cheaper) versions of the packaged games.
+27159,New Super Mario Bros 2 (3DS),66,0.76,6.6/10,0.77,6.6/10,0.63,3.6/5,New Super Mario Bros 2 doesn't add anything truly~ well~ new to the series' long-running formula~ but it nevertheless offers a well-designed sidescrolling challenge with a central gimmick that will leave players salivating with greed.
+27967,New Super Mario Bros U,75,0.92,7.6/10,0.88,7.4/10,0.81,4.0/5,New Super Mario Bros U offers some of the most inventively designed levels that the series has offered in years~ proving that there is still New gold to be mined from an increasingly Old franchise.
+24093,New Super Luigi U,67,0.81,6.9/10,0.77,6.8/10,0.8,4.0/5,While it fails to justify its existence as a full game separate from Mario U~ New Super Luigi U is nonetheless an interesting refreshment on the main game's familiar levels~ proving that the second brother has a few surprises of his own.
+27984,Super Mario Maker,82,0.96,8.2/10,0.93,8.1/10,0.89,4.3/5,No consensus yet.
+23751,Super Mario Maker for 3DS,59,0.68,6.5/10,0.6,6.3/10,0.57,3.2/5,No consensus yet.
+605,Super Mario Run,64,0.79,6.7/10,0.76,6.7/10,0.52,3.0/5,No consensus yet.
+238390,New Super Mario Bros U Deluxe,70,0.87,7.3/10,0.86,7.2/10,0.64,3.6/5,The new-ness of New Super Mario Bros U. might be a bit exaggerated by this point~ but any Switch owner looking for well-designed platforming thrills will be right at home.
+292840,Super Mario Maker 2,82,0.97,8.2/10,0.97,8.2/10,0.87,4.2/5,No consensus yet.
+-1,Super Mario Bros Wonder,88,0.98,8.8/10,0.99,8.5/10,0.95,4.5/5,No consensus yet.
+54574,Yoshi's Story,52,0.47,5.3/10,0.5,5.4/10,0.83,4.2/5,No consensus yet.
+23967,Yoshi's Island: Super Mario Advance 3,86,0.97,8.3/10,0.96,8.1/10,0.97,4.7/5,No consensus yet.
+23937,Yoshi Touch & Go,59,0.7,6.3/10,0.58,6.0/10,0.5,3.2/5,No consensus yet.
+-2,Yoshi Topsy-Turve,48,0.41,5.4/10,0.35,5.0/10,0.64,3.7/5,No consensus yet.
+25040,Yoshi's Island DS,71,0.83,7.0/10,0.82,7.0/10,0.72,3.8/5,Yoshi's Island DS meaningfully builds and expands upon the sharp gameplay and beautiful visuals of its SNES predecessor~ leaving DS owners with a worthy if not-entirely-successor to enjoy.
+27375,Yoshi's New Island,51,0.61,5.8/10,0.47,5.6/10,0.5,3.1/5,Yoshi's New Island is a polished and thoroughly playable 2D platformer for 3DS owners~ but it's uninspired presentation and familiar level design leave it feeling like a pale imitation of its masterful SNES predecessor.
+27989,Yoshi's Woolly World,67,0.87,7.2/10,0.78,6.6/10,0.85,4.3/5,Revitalizing Yoshi's Island's winning formula in a cozy arts-and-crafts aesthetic~ Yoshi's Woolly World is a soothingly plush platformer for any Wii U owner.
+51333,Yoshi's Crafted World,68,0.86,7.2/10,0.82,6.9/10,0.81,4.0/5,No consensus yet.
+25178,Paper Mario,89,0.98,8.4/10,0.96,8.3/10,0.92,4.5/5,No consensus yet.
+56165,Paper Mario: The Thousand Year Door,80,0.95,8.2/10,0.94,7.9/10,0.91,4.4/5,No consensus yet.
+23873,Super Paper Mario,77,0.88,7.6/10,0.87,7.6/10,0.79,4.0/5,Super Paper Mario successfully translates the beloved RPG series into a flatter sidescrolling environment - all while retaining the involving narrative and investing characters that the series has become known for.
+27185,Paper Mario: Sticker Star,62,0.72,6.8/10,0.69,6.7/10,0.45,2.8/5,While Sticker Star's gameplay loop might come across as a bit~ erm~ thin to series devoutees~ most players will quickly be swept up by the game's lushly tactile environments and quirky humor.
+28015,Paper Mario: Color Splash,64,0.77,6.9/10,0.72,6.7/10,0.66,3.5/5,No consensus yet.
+442866,Paper Mario: Origami King,69,0.85,7.3/10,0.79,7.0/10,0.69,3.5/5,No consensus yet.
+52312,Luigi's Mansion,66,0.78,7.1/10,0.68,6.6/10,0.87,4.1/5,Luigi's Mansion is too thin on content for a major launch title~ but it's stunning technical  achievements and unique blend of creepiness and whimsy make it a fun ride while it lasts.
+27235,Luigi's Mansion: Dark Moon,78,0.92,7.8/10,0.91,7.8/10,0.86,4.2/5,No consensus yet.
+236697,Luigi's Mansion 3,78,0.92,7.8/10,0.92,7.7/10,0.85,4.2/5,No consensus yet.
+53377,Lego Star Wars: The Video Game,66,0.82,7.2/10,0.81,7.2/10,0.66,3.4/5,LEGO Star Wars might prove to be a bit too repetitive for hardcore gamers~ but it's gleefully-destructive gameplay and hilarious skewering of a classic series make it an ideal buy for those seeking quality family entertainment.
+53378,Lego Star Wars II: The Original Trilogy,75,0.95,8.0/10,0.92,7.8/10,0.87,4.4/5,Taking the gameplay and humor that made the original LEGO Star Wars a family-friendly hit~ and refining it to a plastic shine~ Lego Star Wars II is a must-have for LEGO enthusiasts~ Star Wars fans~ or anyone seeking a block-breaking good time.
+12662,Lego Star Wars: The Complete Saga,70,0.89,7.5/10,0.87,7.2/10,0.84,4.1/5,No consensus yet.
+5260,Lego Indiana Jones: The Original Adventures,65,0.78,7.1/10,0.74,7.0/10,0.75,3.9/5,No consensus yet.
+16543,Lego Batman: The Videogame,63,0.77,6.8/10,0.65,6.4/10,0.8,4.1/5,No consensus yet.
+26154,Lego Rock Band,58,0.69,6.2/10,0.55,5.8/10,0.72,3.7/5,No consensus yet.
+5606,Lego Indiana Jones 2: The Adventure Continues,56,0.68,6.3/10,0.65,6.1/10,0.62,3.6/5,No consensus yet.
+447,Lego Harry Potter: Years 1-4,68,0.82,7.1/10,0.81,6.8/10,0.76,3.9/5,No consensus yet.
+12729,Lego Star Wars III: The Clone Wars,62,0.75,6.7/10,0.61,6.1/10,0.76,3.9/5,No consensus yet.
+4471,Lego Pirates of the Caribbean,59,0.72,6.6/10,0.61,6.0/10,0.65,3.7/5,No consensus yet.
+4241,Lego Harry Potter: Years 5-7,64,0.78,7.0/10,0.7,6.5/10,0.77,3.9/5,No consensus yet.
+19908,Lego Batman 2: DC Super Heroes,69,0.85,7.2/10,0.84,7.1/10,0.71,3.6/5,No consensus yet.
+2597,Lego Lord of the Rings,70,0.88,7.4/10,0.89,7.5/10,0.8,4.0/5,No consensus yet.
+959,Lego City Undercover,70,0.89,7.3/10,0.82,7.1/10,0.85,4.1/5,No consensus yet.
+3850,Lego Marvel Super Heroes,71,0.91,7.8/10,0.84,7.4/10,0.76,3.9/5,Offering a breadth of fanservice worthy of its cinematic equivalent~ LEGO Marvel Super Heroes is a brilliantly-crafted love letter to decades of rich comic book history.
+17543,The Lego Movie Videogame,57,0.64,6.1/10,0.46,5.9/10,0.62,3.5/5,No consensus yet.
+3729,Lego The Hobbit,57,0.65,6.5/10,0.47,6.3/10,0.59,3.4/5,Like the film series that it adapts~ Lego The Hobbit can feel like too little butter scraped over too much bread~ but there's enough gorgeous visuals and crafty mechanics to divert players who seek high-fantasy in a toyetic form.
+3513,Lego Batman 3: Beyond Gotham,59,0.72,6.6/10,0.6,6.2/10,0.59,3.4/5,No consensus yet.
+3294,Lego Jurassic World,56,0.66,6.2/10,0.52,5.8/10,0.65,3.6/5,No consensus yet.
+27988,Lego Dimensions,68,0.86,7.0/10,0.86,6.7/10,0.68,3.5/5,No consensus yet.
+2866,Lego Avengers,57,0.67,6.4/10,0.49,6.2/10,0.64,3.6/5,No consensus yet.
+1935,Lego Star Wars: The Force Awakens,65,0.81,6.8/10,0.74,6.7/10,0.65,3.6/5,No consensus yet.
+227,Lego Worlds,55,0.58,6.0/10,0.4,5.7/10,0.56,3.2/5,No consensus yet.
+45970,The Lego Ninjago Movie Videogame,56,0.66,6.1/10,0.54,5.9/10,0.49,3.2/5,No consensus yet.
+28083,Lego Marvel Super Heroes 2,60,0.73,6.4/10,0.61,5.9/10,0.6,3.4/5,No consensus yet.
+58086,Lego The Incredibles,56,0.7,6.2/10,0.69,5.8/10,0.56,3.2/5,No consensus yet.
+58597,Lego DC Supervillains,60,0.75,6.6/10,0.61,6.2/10,0.7,3.7/5,No consensus yet.
+269475,The Lego Movie 2 Videogame,45,0.43,5.5/10,0.28,4.9/10,0.36,2.2/5,While it offers moments of block-busting fun~ The Lego Movie 2 Videogame is oddly slapdash by the standards of the usually-reliable LEGO series~ feeling more akin to your average licensed cash-grab than an expreience befitting its imagination-stirring pedigree.
+-3,Lego Star Wars: The Skywalker Saga,71,0.92,7.7/10,0.88,7.4/10,0.74,3.8/5,No consensus yet.
+53394,Mario Party,67,0.81,7.2/10,0.68,6.9/10,0.77,4.0/5,No consensus yet.
+23823,Mario Party 2,65,0.79,6.8/10,0.63,6.5/10,0.86,4.1/5,No consensus yet.
+54437,Mario Party 3,60,0.7,6.6/10,0.48,6.1/10,0.84,4.0/5,No consensus yet.
+56101,Mario Party 4,57,0.62,6.2/10,0.47,5.9/10,0.86,3.8/5,No consensus yet.
+56103,Mario Party 5,56,0.55,6.0/10,0.48,5.8/10,0.86,4.1/5,No consensus yet.
+56104,Mario Party 6,58,0.62,6.1/10,0.44,5.8/10,0.72,3.9/5,No consensus yet.
+27536,Mario Party Advance,43,0.24,4.8/10,0.19,4.6/10,0.39,2.7/5,Mario Party Advance forgoes the competitive fun of its console predecessors for a confoundingly-written story mode and an overly convoluted set of modes~ resulting in a party that most GBA owners will want to quit early.
+56106,Mario Party 7,52,0.48,5.7/10,0.36,5.5/10,0.84,4.2/5,No consensus yet.
+27021,Mario Party 8,50,0.39,5.5/10,0.35,5.4/10,0.52,3.2/5,Mario Party 8 adds some nifty motion controls to its franchise's formula~ but on the whole feels rather antiquated and stodgy compared to other parties being hosted on the Wii.
+24177,Mario Party DS,58,0.69,6.2/10,0.52,6.0/10,0.7,3.9/5,Going portable inevitably takes away a chunk of Mario Party's multiplayer-driven appeal~ but this DS entry is a well-crafted entry nonetheless.
+24247,Mario Party 9,59,0.73,6.6/10,0.6,6.3/10,0.6,3.5/5,Uprooting the  luck-driven formula of past Mario Party games for a more strategically-driven gameplay loop~ Mario Party 9 manages to reinvigorate its aging franchise and create Nintendo's most exciting party in years.
+24054,Mario Party: Island Tour,46,0.35,5.2/10,0.17,4.8/10,0.45,3.0/5,No consensus yet.
+27981,Mario Party 10,53,0.52,5.9/10,0.35,5.6/10,0.53,3.2/5,Although Bowser's Party is a welcome addition to the series' roster of modes~ Mario Party 10 often feels like its spinning its wheels. (Literally~ in the case of the car that all the players are trapped on.)
+28017,Mario Party: Star Rush,55,0.65,6.0/10,0.54,5.8/10,0.63,3.5/5,No consensus yet.
+46664,Mario Party: The Top 100,47,0.37,5.1/10,0.22,5.0/10,0.51,2.9/5,No consensus yet.
+58826,Super Mario Party,64,0.79,6.9/10,0.69,6.5/10,0.63,3.5/5,No consensus yet.
+-4,Mario Party Superstars,69,0.85,7.2/10,0.83,7.0/10,0.82,4.0/5,No consensus yet.
+-5,Super Mario Party Jamboree,73,0.91,7.6/10,0.92,7.5/10,0.89,4.4/5,No consensus yet.
+25057,Wii Sports,63,0.79,7.0/10,0.65,6.9/10,0.76,4.0/5,Wii Sports lacks the depth of content to become a classic game in its own right~ but it proves a marvelous showcase for the Wii's motion-controlled gaming~ one that might spawn even better successors down the line.
+24901,Wii Play,47,0.34,5.1/10,0.19,4.6/10,0.52,3.3/5,No consensus yet.
+25482,Wii Fit,69,0.85,7.2/10,0.83,6.9/10,0.74,3.9/5,No consensus yet.
+25635,Wii Music,51,0.44,5.4/10,0.36,5.5/10,0.39,2.3/5,No consensus yet.
+26002,Wii Sports Resort,70,0.87,7.4/10,0.87,7.3/10,0.82,4.1/5,No consensus yet.
+26083,Wii Fit Plus,69,0.89,7.0/10,0.88,6.9/10,0.66,3.8/5,No consensus yet.
+24359,Wii Party,55,0.63,6.1/10,0.49,5.6/10,0.78,4.0/5,No consensus yet.
+27060,Wii Play: Motion,48,0.39,5.4/10,0.3,5.1/10,0.5,3.2/5,No consensus yet.
+336653,Wii Karaoke U,55,0.72,6.2/10,0.75,6.0/10,0.72,3.9/5,No consensus yet.
+27972,Wii Party U,52,0.65,5.9/10,0.52,5.1/10,0.64,3.6/5,No consensus yet.
+27327,Wii Fit U,59,0.77,6.5/10,0.68,6.2/10,0.79,4.0/5,No consensus yet.
+27444,Wii Sports Club,55,0.66,6.0/10,0.57,5.9/10,0.6,3.5/5,No consensus yet.
+54520,Star Fox 64,81,0.96,8.3/10,0.96,8.2/10,0.9,4.4/5,No consensus yet.
+56216,Star Fox Adventures,72,0.85,7.3/10,0.79,7.0/10,0.8,3.8/5,No consensus yet.
+56211,Star Fox Assault,54,0.57,6.1/10,0.42,5.7/10,0.89,4.2/5,No consensus yet.
+25013,Star Fox Command,63,0.76,6.5/10,0.61,6.1/10,0.63,3.7/5,No consensus yet.
+27080,Star Fox 64 3D,71,0.84,7.5/10,0.83,7.2/10,0.79,4.1/5,No consensus yet.
+28004,Star Fox Zero,56,0.58,6.3/10,0.49,6.0/10,0.71,3.7/5,No consensus yet.
+28002,Star Fox Guard,61,0.73,6.7/10,0.6,6.4/10,0.72,3.7/5,No consensus yet.
+54435,Mario Kart 64,74,0.83,7.5/10,0.85,7.6/10,0.98,4.4/5,No consensus yet.
+53392,Mario Kart: Super Circuit,89,0.93,8.1/10,1,8.6/10,0.87,4.2/5,No consensus yet.
+56097,Mario Kart: Double Dash,80,0.92,8.0/10,0.92,7.8/10,0.91,4.4/5,No consensus yet.
+23943,Mario Kart DS,86,0.97,8.4/10,0.94,8.3/10,0.94,4.3/5,No consensus yet.
+24761,Mario Kart Wii,72,0.84,7.3/10,0.87,7.3/10,0.86,4.2/5,Mario Kart Wii lacks the polish and strategic gameplay that categorize the series' top-tier entries~ but it makes up for it with creative new level designs~ a robust online experience~ and a Wii Wheel control scheme that will lead to hours of chaotic multiplayer fun.
+27970,Mario Kart 7,77,0.9,7.7/10,0.9,7.7/10,0.85,4.1/5,No consensus yet.
+27976,Mario Kart 8,82,0.96,8.2/10,0.94,8.1/10,0.89,4.5/5,No consensus yet.
+23165,Mario Kart 8 Deluxe,88,0.98,8.7/10,0.98,8.6/10,0.91,4.3/5,No consensus yet.
+316823,Mario Kart Tour,47,0.38,5.5/10,0.32,5.0/10,0.31,2.2/5,No consensus yet.
+487917,Mario Kart Live: Home Circuit,62,0.82,6.6/10,0.7,6.1/10,0.68,3.5/5,No consensus yet.
+56007,Chibi-Robo,62,0.8,7.2/10,0.65,6.8/10,0.91,4.4/5,No consensus yet.
+25233,Chibi-Robo: Park Patrol,65,0.82,7.0/10,0.68,6.3/10,0.67,3.7/5,No consensus yet.
+27359,Chibi-Robo: Photo Finder,39,0.42,5.2/10,0.28,4.7/10,0.76,3.8/5,Chibi-Robo: Photo Finder has all of the oddball charm and appealing characters that fans want from the series~ but it's dragged down by a nearly-unusable central gimmick that will leave players shouting in frustruation as often as they are expressing amusement.
+27987,Chibi-Robo: Zip Lash,47,0.35,5.3/10,0.24,5.1/10,0.43,2.5/5,Chibi-Robo: Zip Lash is completely functional as far as sidescrollers go~ but there is no reason to buy it over the many superior options that the 3DS has to offer.
+54531,Super Smash Bros (N64),67,0.89,7.8/10,0.85,7.6/10,0.96,4.7/5,No consensus yet.
+56222,Super Smash Bros Melee,88,0.96,8.3/10,0.97,8.4/10,0.93,4.6/5,No consensus yet.
+25414,Super Smash Bros Brawl,89,0.95,8.3/10,0.98,8.5/10,0.9,4.5/5,No consensus yet.
+336136,Super Smash Bros 3DS,77,0.88,7.7/10,0.91,7.8/10,0.86,4.2/5,No consensus yet.
+331575,Super Smash Bros U,88,0.98,8.5/10,0.99,8.5/10,0.94,4.4/5,No consensus yet.
+58829,Super Smash Bros Ultimate,89,0.99,8.7/10,0.99,8.6/10,0.9,4.4/5,No consensus yet.
+343595,Sonic Adventure,80,0.91,7.9/10,0.93,8.0/10,0.73,3.8/5,No consensus yet.
+343597,Sonic Adventure 2,82,0.89,7.8/10,0.86,7.9/10,0.85,4.3/5,No consensus yet.
+36189,Sonic Heroes,56,0.64,6.2/10,0.49,6.0/10,0.73,3.9/5,No consensus yet.
+56198,Shadow the Hedgehog,38,0.23,4.6/10,0.15,4.3/10,0.53,3.1/5,Confounding in both concept and in practice~ Shadow the Hedgehog seeks to be more thought-provoking than its cheerier brethen~ but the only reaction it will provoke in players is incredulous laughter.
+283965,Sonic 06,36,0.18,3.8/10,0.14,3.8/10,0.33,2.2/5,With an embarrassingly-written story that complements its unfinished gameplay~ Sonic the Hedgehog '06 represents a new low point for the once-radical platforming mascot.
+25103,Sonic and the Secret Rings,56,0.66,6.4/10,0.46,6.2/10,0.56,3.3/5,With its stylish fairy tale aesthetic and refreshingly bold take on Arabian myths~ Sonic and the Secret Rings represents a considerable step up from the hedgehog's prior 3D experiments~ even if there is still plenty of room for refinement.
+3731,Sonic Unleashed,46,0.47,5.4/10,0.3,4.9/10,0.75,3.9/5,Sonic Unleashed offers scattered glimpses at what a 3D Sonic game could look like when done well~ only for it to be dragged down by the game's pervasively confusing mission structure and mind-numingly repetitive Werehog levels.
+24628,Sonic and the Black Knight,43,0.28,5.1/10,0.26,4.9/10,0.63,3.5/5,Sonic and the Black Knight is as aesthetically lush as its precessor~ but far too often it throws out cheap waggle gimmicks as a substitute for engaging~ well-crafted gameplay.
+14938,Sonic 4: Episode 1,60,0.71,6.5/10,0.63,6.1/10,0.51,3.0/5,It borrows too heavily from its Genesis predecessors to hook non-converts~ but  Sonic the Hedgehog 4 is a slick-looking~ enjoyably nostalgic throwback to the Blue Blur's glory days.
+26563,Sonic Colors,66,0.86,7.3/10,0.77,6.8/10,0.89,4.3/5,No consensus yet.
+4331,Sonic Generations,65,0.85,7.2/10,0.75,6.9/10,0.84,4.2/5,Expertly fusing the Classic and Modern Sonic formulas into one sleek package~ Sonic Generations is a more-than-worthy celebration of the Blue Blur's (slightly bumpy) gaming history.
+14930,Sonic 4: Episode 2,50,0.49,5.7/10,0.35,5.3/10,0.6,3.4/5,No consensus yet.
+14988,Sonic Lost World,51,0.57,6.0/10,0.38,5.6/10,0.64,3.6/5,Sonic Lost World has its moments of inspiration~ but there are far too many concepts and mechanics for the game to execute all of them successfully.
+27505,Sonic Boom: Rise of Lyric,25,0.11,3.5/10,0,2.9/10,0.29,1.9/5,Tedious~ buggy~ and unfunny  to listen to~ Rise of Lyric is a disastrous rejection of everything that made Sonic a once-beloved platforming icon.
+23587,Sonic Mania,77,0.94,8.1/10,0.88,7.7/10,0.87,4.3/5,No consensus yet.
+27943,Sonic Forces,46,0.32,5.1/10,0.23,4.8/10,0.54,3.2/5,No consensus yet.
+-6,Sonic Frontiers,55,0.74,6.3/10,0.58,5.9/10,0.85,4.2/5,No consensus yet.
+-7,Sonic Superstars,59,0.75,6.6/10,0.61,6.2/10,0.82,4.2/5,No consensus yet.
+-8,Sonic x Shadow Generations,70,0.91,7.5/10,0.86,7.2/10,0.92,4.5/5,No consensus yet.
+27504,Sonic Boom: Shattered Crystal,37,0.33,4.8/10,0.17,4.3/10,0.51,3.0/5,While more polished and functional than its home-console sibling~ Sonic Boom: Shattered Crystal is still too simplistic and monotonous to stand out in a crowded field of 3DS sidescrollers.
+27826,Sonic Boom: Fire and Ice,50,0.63,5.9/10,0.39,5.5/10,0.68,3.6/5,While still lacking the adrenaline rush characteristic of Sonic's best efforts~ Sonic Boom: Fire and Ice manages to improve considerably on its predecessor with more consistent pacing~ engaging mechanics~ and elaborately-designed stages to explore.
+54346,Animal Crossing,80,0.92,8.1/10,0.93,8.1/10,0.94,4.4/5,No consensus yet.
+23849,Animal Crossing: Wild World,78,0.91,7.8/10,0.91,8.0/10,0.92,4.4/5,No consensus yet.
+27026,Animal Crossing: City Folk,59,0.68,6.1/10,0.53,5.8/10,0.71,3.8/5,No consensus yet.
+27953,Animal Crossing: New Leaf,81,0.9,8.0/10,0.86,7.9/10,0.9,4.4/5,No consensus yet.
+27986,Animal Crossing: Happy Home Designer,53,0.6,6.0/10,0.37,5.8/10,0.6,3.5/5,No consensus yet.
+27994,Animal Crossing: Amiibo Festival,36,0.2,4.5/10,0.15,4.3/10,0.32,2.0/5,No consensus yet.
+49326,Animal Crossing: Pocket Camp,58,0.73,6.4/10,0.64,5.9/10,0.62,3.4/5,No consensus yet.
+421698,Animal Crossing: New Horizons,85,0.97,8.5/10,0.99,8.6/10,0.56,2.9/5,No consensus yet.
+54379,Diddy Kong Racing,82,0.94,8.3/10,0.92,8.2/10,0.88,4.0/5,No consensus yet.
+54380,Donkey Kong 64,85,0.9,7.9/10,0.92,8.0/10,0.85,4.2/5,No consensus yet.
+56031,Donkey Konga,64,0.77,7.0/10,0.64,6.5/10,0.8,4.3/5,No consensus yet.
+56029,Donkey Kong Jungle Beat,70,0.89,7.2/10,0.86,7.0/10,0.88,4.1/5,No consensus yet.
+-9,Donkey Konga 2,56,0.57,6.1/10,0.4,5.8/10,0.75,4.2/5,Donkey Konga 2's rhythmic gameplay is as addicting as ever~ but thanks to the game's ill-chosen soundtrack~ most players will be too busy plugging their ears to appreciate it.
+27512,DK: King of Swing,57,0.61,5.9/10,0.42,5.5/10,0.75,4.0/5,No consensus yet.
+24902,Diddy Kong Racing DS,51,0.55,5.7/10,0.41,5.5/10,0.62,3.4/5,No consensus yet.
+25206,DK: Jungle Climber,65,0.76,6.4/10,0.62,6.0/10,0.56,3.4/5,No consensus yet.
+25242,Donkey Kong: Barrel Blast,37,0.17,4.1/10,0.08,3.6/10,0.62,3.4/5,A laughably barebones racer further marred by unfitting motion controls~ this is a Donkey Kong game that most Wii owners will quickly blast out of their system.
+24170,Donkey Kong Country Returns,81,0.96,8.0/10,0.94,7.9/10,0.9,4.3/5,No consensus yet.
+27978,Donkey Kong Country: Tropical Freeze,74,0.92,7.6/10,0.92,7.5/10,0.92,4.5/5,No consensus yet.
+53537,The Simpsons: Road Rage,52,0.38,5.3/10,0.27,5.0/10,0.61,3.6/5,No consensus yet.
+359130,The Simpsons Skateboarding,30,0.09,3.6/10,0.08,3.8/10,0.21,1.8/5,Cowabunga? More like Ay-Caramba!
+35576,The Simpsons: Hit and Run,68,0.86,7.1/10,0.81,6.8/10,0.88,4.3/5,No consensus yet.
+330968,Futurama,47,0.35,5.2/10,0.26,4.8/10,0.59,3.4/5,Futurama has flashes of the sharp writing and wit that made the TV series sing~ but it's drab levels and frustrating gameplay mean that most fans are likely better off waiting for the enivitable cutscene compilation.
+25282,The Simpsons Game (HD),58,0.6,6.1/10,0.48,5.6/10,0.7,3.8/5,The Simpsons Game isn't particularly impressive or engaging as far as 3D platformers go~ but it's sharp writing and wealth of fanservice will satisfy longtime Simpsons devotees.
+290864,Link to the Past+Four Swords,92,0.98,8.7/10,0.97,8.7/10,0.91,4.5/5,No consensus yet.
+56093,Four Swords Adventures,79,0.93,7.6/10,0.98,7.8/10,0.83,3.7/5,No consensus yet.
+27418,The Minish Cap,84,0.95,8.3/20,0.94,8.1/10,0.97,4.5/5,No consensus yet.
+27023,Phantom Hourglass,85,0.94,7.9/10,0.94,8.0/10,0.79,4.0/5,No consensus yet.
+23850,Spirit Tracks,80,0.92,7.7/10,0.92,7.7/10,0.81,4.0/5,No consensus yet.
+-10,Four Sword Anniversary,77,1,7.9/10,1,7.5/10,0.71,3.8/5,No consensus yet.
+27977,A Link Between Worlds,86,0.97,8.4/10,0.97,8.5/10,0.93,4.5/5,No consensus yet.
+27991,Tri-Force Heroes ,59,0.65,6.6/10,0.61,6.5/10,0.66,3.5/5,No consensus yet.
+292842,Link's Awakening HD,78,0.93,7.9/10,0.91,7.8/10,0.87,4.2/5,No consensus yet.
+-11,Echoes of Wisdom,78,0.91,7.8/10,0.91,7.7/10,0.86,4.3/5,No consensus yet.
+26824,Skyward Sword,89,0.91,8.1/10,0.93,8.4/10,0.8,4.1/5,Skyward Sword's elegant visuals and intriguing narrative are in service to some of the freshest puzzles and world design that the series has offered in ages~ all while showcasing that Wii's motion control capabilities better than any game since the console's launch days.
+-12,Skyward Sword HD,71,0.82,7.2/10,0.85,7.1/10,0.74,3.8/5,No consensus yet.
+27015,Twilight Princess (Wii),92,0.96,8.7/10,0.99,8.8/10,0.91,4.5/5,Refreshingly mature in tone and expansive in scope~ Twilight Princess restores the Zelda series to its epic roots and captures what made the series so great in the first place.
+24182,Twilight Princess HD,78,0.93,7.8/10,0.92,7.7/10,0.88,4.3/5,No consensus yet.
+56092,Wind Waker,94,0.95,8.6/10,0.99,8.8/10,0.9,4.4/5,No consensus yet.
+27975,Wind Waker HD,85,0.98,8.3/10,0.99,8.3/10,0.92,4.5/5,No consensus yet.
+37581,Cave Story,84,0.99,8.2/10,1,8.5/10,0.84,4.1/5,"Cave Story is a consistently fun~ emotionally rich indie pastiche of the Metroidvania games of yore~ one that can stand with the best and biggest games that the genre has to offer."""
+27100,Cave Story 3D,73,0.82,6.9/10,0.86,7.0/10,0.82,4.1/5,"Cave Story 3D isn't strictly necessary for those who have already played the original release~ but it's lush polygonal graphics and immersive use of stereoscopic 3D nevertheless make it a worthy endeavor for bot players who haven't dwelved into Cave Story before~ as well as seasoned players willing to give it another go."""
+25955,Lego Battles,52,0.58,5.8/10,0.44,5.7/10,0.88,4.5/5,No consensus yet.
+26662,Lego Battles: Ninjago,47,0.49,5.6/10,0.28,5.0/10,0.81,4.2/5,No consensus yet.
+27244,Lego City Undercover: The Chase Continues,50,0.62,5.8/10,0.43,5.4/10,0.62,3.3/5,Lego City Undercover: The Chase Continues does an admirable job squeezing the content of its home console brethren onto a portable console~ but technical issues and load times take away much of Lego City's atmosphere.
+2168,Lego Marvel Super Heroes: Universe in Peril,44,0.58,5.6/10,0.42,5.1/10,0.38,2.5/5,Offering superhero action in bite-sized chunks~ Lego Marvel: Universe in Peril is an acceptably entertaining brawler for Marvel fans~ but those seeking a wider range of superhero content will be better off sticking with the home console version instead.
+27264,Lego Chima: Laval's Journey,52,0.65,5.6/10,0.4,6.0/10,0.6,3.2/5,No consensus yet.
+59184,Kingdom Hearts,77,0.88,7.7/10,0.89,7.7/10,0.92,4.5/5,No consensus yet.
+138136,Chain of Memories,64,0.83,6.9/10,0.74,6.6/10,0.89,3.9/5,No consensus yet.
+127659,Kingdom Hearts II,79,0.9,7.8/10,0.87,7.7/10,0.91,4.5/5,No consensus yet.
+-13,Re:Chain of Memories,55,0.6,5.8/10,0.45,5.5/10,0.51,3.2/5,No consensus yet.
+26076,358/2 Days,62,0.71,6.6/10,0.66,6.1/10,0.74,3.8/5,No consensus yet.
+5596,Birth By Sleep,72,0.89,7.5/10,0.89,7.3/10,0.83,4.1/5,No consensus yet.
+24329,Re:Coded,53,0.53,5.7/10,0.42,5.4/10,0.53,3.1/5,No consensus yet.
+27155,KH3D: Dream Drop Distance,62,0.78,7.0/10,0.71,6.5/10,0.82,4.1/5,No consensus yet.
+41680,KH HD 1.5 Remix (PS3),65,0.8,7.1/10,0.77,7.0/10,0.84,4.2/5,No consensus yet.
+42405,KH HD 2.5 Remix (PS3),71,0.87,7.3/10,0.9,7.3/10,0.87,4.3/5,No consensus yet.
+334413,Kingdom Hearts Union X,56,0.5,5.8/10,0.5,5.6/10,0.54,3.1/5,No consensus yet.
+472,HD 2.8 Final Chapter Prologue,64,0.77,6.9/10,0.67,6.3/10,0.74,3.8/5,No consensus yet.
+51324,Kingdom Hearts III,73,0.83,7.4/10,0.86,7.5/10,0.77,4.0/5,No consensus yet.
+327224,KHIII - Re Mind,53,0.62,5.9/10,0.53,5.8/10,0.57,3.1/5,No consensus yet.
+484501,Melody of Memory,62,0.76,6.8/10,0.69,6.4/10,0.72,3.7/5,No consensus yet.
+1693,Shantae: Risky's Revenge,74,0.88,7.7/10,0.84,7.8/10,0.8,3.9/5,No consensus yet.
+2548,Shantae and the Pirate's Curse,74,0.95,7.7/10,0.92,7.5/10,0.9,4.3/5,No consensus yet.
+607,Shantae: Half-Genie Hero,70,0.9,7.3/10,0.89,7.1/10,0.78,3.9/5,Capturing the Shantae series' appeal with a gorgeous visual makeover~ Half-Genie Hero works both as an introduction for new players~ and as fanservice for returning ones.
+366894,Shantae and the Seven Sirens,65,0.79,6.8/10,0.76,6.8/10,0.77,3.9/5,No consensus yet.
+2310,Mighty No. 9,41,0.36,5.2/10,0.25,4.6/10,0.3,2.0/5,No consensus yet.
+47,Yooka-Laylee,57,0.67,6.3/10,0.55,6.2/10,0.59,3.1/5,Yooka-Laylee is a loving~ faithful recreation of the 90s collectathons of yore - which might be a turnoff for gamers unwilling to adjust their modern expectations for a more antiquated experience.
+11164,A Hat in Time,68,0.84,7.3/10,0.8,6.9/10,0.88,4.3/5,No consensus yet.
+471021,Balan Wonderworld,35,0.27,4.4/10,0.18,4.0/10,0.55,2.9/5,No consensus yet.
+56123,Metroid Prime,95,0.99,9.1/10,1,9.3/10,0.93,4.6/5,No consensus yet.
+27390,Metroid Fusion,87,0.96,8.4/10,0.98,8.5/10,0.98,4.6/5,No consensus yet.
+27711,Metroid Zero Mission,83,0.95,8.2/10,0.98,8.2/10,0.96,4.5/5,No consensus yet.
+56124,Metroid Prime 2: Echoes,87,0.95,8.5/10,0.97,8.6/10,0.95,4.5/5,No consensus yet.
+24941,Metroid Prime Pinball,68,0.85,7.1/10,0.79,6.9/10,0.77,4.0/5,No consensus yet.
+25002,Metroid Prime Hunters,77,0.89,7.6/10,0.89,7.6/10,0.82,4.1/5,No consensus yet.
+25198,Metroid Prime 3: Corruption,85,0.92,8.1/10,0.95,8.3/10,0.91,4.5/5,No consensus yet.
+23958,Metroid Prime: Trilogy,87,0.96,8.6/10,0.99,8.8/10,0.9,4.5/5,No consensus yet.
+24366,Metroid: Other M,68,0.79,7.1/10,0.78,7.1/10,0.61,3.4/5,No consensus yet.
+27964,Metroid: Federation Force,51,0.53,5.6/10,0.37,5.3/10,0.49,2.7/5,No consensus yet.
+43755,Metroid: Samus Returns,77,0.9,7.8/10,0.88,7.8/10,0.88,4.4/5,No consensus yet.
+-14,Metroid Dread,82,0.95,8.3/10,0.92,8.2/10,0.9,4.4/5,No consensus yet.
+-15,Metroid Prime Remastered,91,0.98,8.8/10,1,8.8/10,0.87,4.4/5,No consensus yet.
+25097,Ocarina of Time,98,1,9.3/10,1,9.5/10,0.96,4.8/5,No consensus yet.
+27969,Ocarina of Time 3D,91,0.98,8.6/10,0.99,8.6/10,0.92,4.5/5,No consensus yet.
+25924,Majora's Mask,92,0.95,8.8/10,0.98,8.5/10,0.9,4.4/5,Tonally dark~ narratively complex~ and mechanically original~ Majora's Mask is a wonderfully off-kilter distortion of its N64 predecessor's formula~ one that will leave a mark on anyone who plays it.
+23768,Majora's Mask 3D,83,0.96,8.2/10,0.99,8.1/10,0.89,4.5/5,Majora's Mask 3D does justice the creepy atmosphere and innovative gameplay that made the N64 original such a haunting experience~ all while refining its few shortcomings to create the definitive experience for both old fans and newcomers alike.
+53546,Sonic Advance,80,0.92,7.8/10,0.86,7.6/10,0.9,3.9/5,No consensus yet.
+53547,Sonic Advance 2,74,0.87,7.3/10,0.81,7.3/10,0.9,4.1/5,No consensus yet.
+53548,Sonic Advance 3,67,0.78,6.9/10,0.8,6.9/10,0.8,4.2/5,No consensus yet.
+24980,SONIC RUSH,72,0.9,7.4/10,0.86,7.3/10,0.89,4.3/5,No consensus yet.
+25214,Sonic rush Adventure,67,0.82,7.0/10,0.8,6.8/10,0.8,4.1/5,No consensus yet.
+54747,Sonic Shuffle,43,0.31,4.7/10,0.29,4.6/10,0.82,3.9/5,No consensus yet.
+37615,Sonic Riders,46,0.34,5.2/10,0.24,5.1/10,0.7,3.8/5,Sonic Riders isn't lacking for style~ but it's gameplay loop is too unintuitive to work as a racing game.
+24800,Sonic Riders: Zero Gravity,45,0.36,5.0/10,0.22,4.8/10,0.83,4.1/5,No consensus yet.
+24716,Sonic Chronicles: The Dark Brotherhood,60,0.68,6.2/10,0.55,5.9/10,0.67,3.5/5,Sonic Chronicles: The Dark Brotherhood is less narratively-involved and intricately-designed than its RPG brethren~ but it offers enough charisma and accessible mechanics to make a solid starter-RPG for Sonic fans.
+683,Sonic & Sega All-Stars Racing,63,0.8,6.9/10,0.7,6.4/10,0.87,4.2/5,Sonic All-Stars Racing will feel familiar to players who've already raced alongside a certained mustached plumber~ but it is polished and engaging enough to make for solid racing thrills.
+28531,Sonic Free Riders,37,0.25,4.4/10,0.21,4.2/10,0.18,1.2/5,No consensus yet.
+966,Sonic All-Stars Racing Transformed,70,0.93,7.6/10,0.9,7.2/10,0.86,4.2/5,No consensus yet.
+58878,Team Sonic Racing,58,0.72,6.5/10,0.55,6.0/10,0.69,3.7/5,No consensus yet.
+24337,Epic Mickey,59,0.7,6.4/10,0.59,6.1/10,0.66,3.7/5,No consensus yet.
+4180,Epic Mickey 2,47,0.35,5.1/10,0.35,5.2/10,0.46,2.8/5,No consensus yet.
+24115,Epic Mickey 3D,50,0.4,5.6/10,0.3,5.5/10,0.49,3.0/5,No consensus yet.
+463731,Epic Mickey Rebrushed,63,0.78,6.7/10,0.69,6.2/10,0.83,4.0/5,No consensus yet.
+1121,Secret of Mana (Remaster),50,0.43,5.5/10,0.36,5.4/10,0.58,3.3/5,No consensus yet.
+327255,Collection of Mana,74,0.94,7.6/10,0.92,7.6/10,0.8,4.1/5,No consensus yet.
+327244,Trials of Mana (Remaster),63,0.77,6.7/10,0.7,6.3/10,0.76,3.9/5,No consensus yet.
+22511,Breath of the Wild,95,0.98,8.8/10,0.97,9.0/10,0.88,4.4/5,No consensus yet.
+-16,Tears of the Kingdom,93,0.95,8.7/10,0.97,8.8/10,0.86,4.4/5,No consensus yet.
+23764,Hyrule Warriors,64,0.75,6.8/10,0.7,6.7/10,0.83,4.2/5,No consensus yet.
+490417,Hyrule Warriors: Age of Calamity,67,0.82,7.3/10,0.79,6.9/10,0.77,3.9/5,No consensus yet.
+28001,Hyrule Warriors: Legends,56,0.65,6.3/10,0.56,6.3/10,0.73,3.8/5,No consensus yet.
+58574,Hyrule Warriors: Definitive Edition,67,0.86,7.3/10,0.82,7.0/10,0.79,4.0/5,No consensus yet.
+326228,2ooka-Laylee,72,0.89,7.7/10,0.87,7.3/10,0.7,3.6/5,No consensus yet.
+3740,Fez,83,0.97,8.4/10,0.94,8.2/10,0.61,3.1/5,No consensus yet.
+56229,Super Monkey Ball,79,0.94,7.8/10,0.92,7.7/10,0.83,3.9/5,No consensus yet.
+56230,Super Monkey Ball 2,79,0.92,7.7/10,0.91,7.9/10,0.91,4.3/5,No consensus yet.
+24176,Super Monkey Ball 3D,44,0.29,5.0/10,0.19,4.7/10,0.34,2.8/5,"Super Monkey Ball 3D brings impressive stereoscopic visuals to the series. However, the buoyant gameplay of its predecessors has been replaced with a leaden and simplististic experience, leaving little incentive for players to keep this ball rolling for very long."
+3632,Lego Ninjago: Nindroids,47,0.41,4.9/10,0.22,4.3/10,0.48,3.0/5,No consensus yet.
+3395,Lego Ninjago: Shadow of Ronin,57,0.73,5.8/10,0.57,5.3/10,0.76,4.1/5,No consensus yet.
+4782,Xenogears,76,0.94,8.7/10,0.92,8.3/10,0.98,4.7/5,No consensus yet.
+302306,Xenosaga Episode I,74,0.84,7.8/10,0.84,7.5/10,0.92,4.4/5,No consensus yet.
+320363,Xenosaga Episode II,59,0.69,6.7/10,0.56,6.4/10,0.9,4.2/5,No consensus yet.
+335878,Xenosaga Episode III,71,0.86,7.4/10,0.85,7.1/10,0.91,4.5/5,No consensus yet.
+23875,Xenoblade Chronicles,88,0.96,8.3/10,0.98,8.3/10,0.93,4.6/5,No consensus yet.
+23756,Xenoblade Chronicles X,76,0.9,7.6/10,0.91,7.4/10,0.87,4.4/5,No consensus yet.
+43753,Xenoblade Chronicles 2,73,0.89,7.7/10,0.88,7.6/10,0.85,4.3/5,No consensus yet.
+58824,Xenoblade Chronicles 2: Torna ~ The Golden Country,70,0.88,7.2/10,0.86,7.0/10,0.87,4.2/5,No consensus yet.
+-17,Xenoblade Chronicles 3,84,0.94,8.0/10,0.95,8.2/10,0.89,4.4/5,No consensus yet.
+3144,Super Meat Boy,84,0.98,8.4/10,0.98,8.4/10,0.82,4.1/5,No consensus yet.
+22121,Celeste,86,0.99,8.7/10,0.99,8.6/10,0.84,4.2/5,No consensus yet.
+46153,Super Meat Boy Forever,54,0.62,6.3/10,0.49,6.1/10,0.44,2.6/5,No consensus yet.
