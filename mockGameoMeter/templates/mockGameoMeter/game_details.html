@@ -2,7 +2,7 @@
 {% load static %}
 
 {% block content %}
-
+<img src="{{game.poster_link}}" width="120px"> <br>
     {{game.name}}<br>
 
     {% if game.game_scores %}
@@ -19,7 +19,7 @@
         N
     {% endif %}
     
-    {{game.game_scores.all_percent}}<br>
+    {{game.game_scores.all_percent}}%<br>
     
     {{game.game_scores.all_rating}}<br>
     <br>
@@ -35,7 +35,7 @@
         N
     {% endif %}
     
-    {{game.game_scores.tc_percent}}<br>
+    {{game.game_scores.tc_percent}}%<br>
     
     {{game.game_scores.tc_rating}}<br>
     <br>
@@ -55,10 +55,21 @@
     <br>
     <br>
     <br>
+
+    {% if game.meta_bars %}
+        {% for bar in game.meta_bars %}
+            <div class="bars" style="width: 40px; height: {{game.bar_length}}px; background-color: {{bar}};"></div>
+            
+        {% endfor %}
+        {{game.game_scores.mock_mc}}
+    {% endif %}
+    <br>
+
     PUBLISHER: {{game.publishers}}<br>
     DEVELOPER: {{game.developeres}}<br>
     RELEASE DATE: {{game.release_date}}<br>
     GENRE: {{game.genre}}<br>
+    PLATFORMS: {{game.platforms}}<br>
 
     
 

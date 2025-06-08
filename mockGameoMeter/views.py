@@ -11,7 +11,9 @@ from django.urls import reverse ## NEW
 from django.contrib.auth.mixins import LoginRequiredMixin
 from django.contrib.auth.forms import UserCreationForm
 from django.contrib.auth import authenticate, login
-from django.db.models import Q # new
+from django.db.models import Q, Case, When # new
+from django.core.paginator import Paginator, PageNotAnInteger, EmptyPage
+from django import template
 
 # Create your views here.
 def home_page_view(request):
@@ -43,6 +45,8 @@ class ShowAllGamesView(ListView):
 
     return context
 
+
+
 class SearchResultsView(ListView):
     model = GameInfo
     template_name = 'mockGameoMeter/search_results.html'
@@ -50,18 +54,83 @@ class SearchResultsView(ListView):
     paginate_by = 40
 
     def get_queryset(self):  # new
-        query = self.request.GET.get("q")
+        query = self.request.GET.get("q", '')
         # allows the search engine to find game titles, publishers and developers.
         games = GameInfo.objects.filter(
-            Q(name__icontains=query) | Q(publishers__icontains=query) | Q(developers__icontains=query)
+            Q(name__icontains=query) | Q(publishers__icontains=query) | Q(developers__icontains=query) | Q(platforms__icontains=query)
         )
+
+        non_games = GameInfo.objects.filter(
+            Q(name__icontains=query) | Q(publishers__icontains=query) | Q(developers__icontains=query) | Q(platforms__icontains=query)
+        )
+
+        
 
         if 'filters' in self.request.GET:
            #filter by title.
           filters= self.request.GET['filters']
           if filters == 'newest':
              games = games.order_by('-release_date')
-             
+          if filters == 'highest_critics':
+             f_games = []
+             scores = GameScores.objects.order_by('-all_percent')
+             for s in scores:
+                s_id = s.id_number 
+                f_games.append(s_id)
+             score_ordering = Case(*[When(id_number=id, then=position) for position, id in enumerate(f_games)])
+             games = games.filter(
+                id_number__in=f_games
+             ).order_by(score_ordering)
+
+             non_games = non_games.exclude(
+                id_number__in=f_games
+             )
+             games.union(non_games, all=True)
+
+          if filters == 'lowest_critics':
+            f_games = []
+            scores = GameScores.objects.order_by('all_percent')
+            for s in scores:
+               s_id = s.id_number 
+               f_games.append(s_id)
+            score_ordering = Case(*[When(id_number=id, then=position) for position, id in enumerate(f_games)])
+            games = games.filter(
+               id_number__in=f_games
+            ).order_by(score_ordering)
+
+
+          if filters == 'highest_audience':
+             f_games = []
+             scores = GameScores.objects.order_by('-user_percent')
+             for s in scores:
+                s_id = s.id_number 
+                f_games.append(s_id)
+             score_ordering = Case(*[When(id_number=id, then=position) for position, id in enumerate(f_games)])
+             games = games.filter(
+                id_number__in=f_games
+             ).order_by(score_ordering)
+
+             non_games = non_games.exclude(
+                id_number__in=f_games
+             )
+             games.union(non_games)
+
+          if filters == 'lowest_audience':
+             f_games = []
+             scores = GameScores.objects.order_by('user_percent')
+             for s in scores:
+                s_id = s.id_number 
+                f_games.append(s_id)
+             score_ordering = Case(*[When(id_number=id, then=position) for position, id in enumerate(f_games)])
+             games = games.filter(
+                id_number__in=f_games
+             ).order_by(score_ordering)
+         
+             non_games = non_games.exclude(
+                id_number__in=f_games
+             )
+             games.union(non_games)
+
         return games
 
 class ShowGameDetailsView(DetailView):

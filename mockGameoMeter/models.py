@@ -1,8 +1,11 @@
+import ast
+import json
 from django.db import models
 from django.urls import reverse ## NEW
 from django.contrib.auth.models import User ## NEW
 from django.db.models.signals import post_save
 from django.dispatch import receiver
+import pandas as pd
 
 class GameScores(models.Model):
   '''
@@ -27,6 +30,18 @@ class GameScores(models.Model):
 
   def __str__(self):
     return f'The video game {self.title} is score-ready with ID {self.id_number}.'
+  
+    
+class MetaBars(models.Model):
+  """
+  Stores the information for the Metascores that will be used to create color bars
+  representing the metascores.
+  """
+  id_number = models.IntegerField(blank=False)
+  score_list = models.JSONField(blank=False)
+
+def __str__(self):
+  return f'The id number {self.id_number} has a list of metascores {self.score_list}.'
 
 class GameInfo(models.Model):
   '''
@@ -45,6 +60,7 @@ class GameInfo(models.Model):
   publishers = models.TextField(blank=True)
   esrb_rating = models.TextField(blank=True)
   poster_link = models.URLField(blank=True)
+  critics_score = models.TextField(blank=True, null=True)
 
   '''
   id_number = models.IntegerField(blank=False)
@@ -80,9 +96,47 @@ class GameInfo(models.Model):
       return score
     else:
       return None
+  
+  def bar_length(self):
+    metabars = MetaBars.objects.filter(id_number = self.id_number)
+    if len(metabars) > 0:
+      length = float(len(metabars.first().score_list))
+      return 200/length
+  
+  def meta_bars(self):
+    metabars = MetaBars.objects.filter(id_number = self.id_number)
+    
+    if len(metabars) > 0:
+      red_hex = (255,0,0)
+      yellow_hex = (255,255,0)
+      green_hex = (0,176,80)
+      metabar = metabars.first()
+      color_list = []
+      for value in metabar.score_list:
+        
+        #print(value)
+        if int(value) <= 63:
+          ratio = value / 63 
+          r = 255
+          g = int((red_hex[1]*(1-ratio))+(yellow_hex[1]*(ratio)))
+          b = 0
+        else:
+          ratio = (value-63) / (37) 
+          r = int((yellow_hex[0]*(1-ratio))+(green_hex[0]*ratio))
+          g = int((yellow_hex[1]*(1-ratio))+(green_hex[1]*ratio))
+          b = int((yellow_hex[2]*(1-ratio))+(green_hex[2]*ratio))
+        hex_color = f'#{r:02X}{g:02X}{b:02X}'
+        color_list.append(hex_color)
+
+      return color_list
+    else:
+      return None
+    
 
   def __str__(self):
     return f'The video game {self.name} has been added with ID number {self.id_number}.'
+
+
 
 def load_info():
   '''
@@ -103,8 +157,6 @@ def load_info():
 
   # go through the entire file one line at a time
   for line in f:
-
-
     
     try:
       #split the CSV file into fields
@@ -141,6 +193,8 @@ def load_info():
 
   print("Done.") 
 
+
+
 def load_scores():
   '''
   Load the video game scores from a CSV file.
@@ -152,7 +206,7 @@ def load_scores():
   # open the file for reading one line at a time
   filename = '/Users/DBeye/django_game/media/game_scores.csv'
   # open the file for reading
-  f = open(filename, encoding="utf8") 
+  f = open(filename) 
   # discard the first line containing headers
   headers = f.readline()
 
@@ -222,6 +276,7 @@ def load_scores():
       )
       result.save()
       #print("Result saved")
+
     except:
       print(f"EXCEPTION OCCURED: {fields}.")
 
@@ -229,3 +284,29 @@ def load_scores():
 
 # def critics_symbol():
 # MyModel.objects.filter(pk=some_value).update(field1='some value')
+
+
+def make_metabars():
+  meta_info = pd.read_csv("/Users/DBeye/django_game/media/meta_lists.csv")
+
+  MetaBars.objects.all().delete()
+  len(meta_info)
+  for i in range(0,len(meta_info)):
+    game = meta_info.iloc[i].copy()
+    game_id = game['id']
+    game_list = game['s_lists']
+    print(game_id)
+    
+    game_list = json.loads(game_list)
+    print(type(game_list))
+
+
+    results = MetaBars(
+      id_number = game_id, 
+      score_list = game_list
+    )
+    print("Results are :",results.score_list)
+
+    results.save()
+    """
+    """

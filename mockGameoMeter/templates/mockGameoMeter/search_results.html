@@ -1,15 +1,21 @@
 {% extends 'mockGameoMeter/base.html' %}
 {% load static %}
+{% load my_tags %}
 
 {% block content %}
 
     <form action="{% url 'search_results' %}">
         Newest to Oldest: <input type="radio" name="filters" value="newest"><br>
+        Highest Critics Rating: <input type="radio" name="filters" value="highest_critics"><br>
+        Lowest Critics Rating: <input type="radio" name="filters" value="lowest_critics"><br>
+        Highest Audience Rating: <input type="radio" name="filters" value="highest_audience"><br>
+        Lowest Audience Rating: <input type="radio" name="filters" value="lowest_audience"><br>
 
         <input class type="submit">
     </form>
 
     {% for g in games %}
+        <img src="{{g.poster_link}}" width="120px"> 
         <div>
             <p><a href="{% url 'game_details' g.pk %}">{{g.name}}</a>, {{g.publishers}}, {{g.developers}}, {{g.release_date}}</p>
             ID: {{g.id_number}}<br>
@@ -45,12 +51,17 @@
     <div style="margin-top:10px; margin-bottom:10px; margin-left:25px;" class="page">
         <!--link to the game's previous page.-->
         {% if page_obj.has_previous %}
-            <a style="font-family:cursive;" href="?page={{ page_obj.previous_page_number }}">Previous</a>
+            {% if page_obj.previous_page_number != 1 %}
+                <a style="font-family:cursive;" href="?{% param_replace page=page_obj.previous_page_number %}">Previous</a>
+            {% endif %}
+
         {% endif %}
         <!--Link to the game's next page.-->
         {% if page_obj.has_next %}
             <span style="font-family:cursive;">Page {{ page_obj.number }} of {{ page_obj.paginator.num_pages }}.</span>
-            <a style="font-family:cursive;" href="?page={{ page_obj.next_page_number }}">Next</a>
+            {% if page_obj.next_page_number != paginator.num_pages %}
+                <a style="font-family:cursive;" href="?{% param_replace page=page_obj.next_page_number %}">Next</a>
+            {% endif %}
         {% endif %}
     </div>
 
