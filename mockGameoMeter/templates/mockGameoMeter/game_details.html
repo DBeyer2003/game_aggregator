@@ -2,6 +2,8 @@
 {% load static %}
 
 {% block content %}
+
+
 <img src="{{game.poster_link}}" width="120px"> <br>
     {{game.name}}<br>
 
@@ -38,10 +40,11 @@
     {{game.game_scores.tc_percent}}%<br>
     
     {{game.game_scores.tc_rating}}<br>
+    <p id="consensus">Dobby has~~~~ freed his elf!</p>
     <br>
 
 
-    Critics' Consensus: <p>{{game.game_scores.critics_consensus}}</p><br>
+    Critics' Consensus: <p id="consensus">{{game.game_scores.critics_consensus}}</p><br>
     <br>
 
     {% if game.game_scores.user_percent > 59.0 %}
@@ -71,6 +74,8 @@
     GENRE: {{game.genre}}<br>
     PLATFORMS: {{game.platforms}}<br>
 
-    
-
 {% endblock %}
+
+<script src="{% static 'jsfunc.js' %}"></script>
+{% block script %}{% endblock %}
+

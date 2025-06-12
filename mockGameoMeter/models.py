@@ -7,6 +7,18 @@ from django.db.models.signals import post_save
 from django.dispatch import receiver
 import pandas as pd
 
+class Profile(models.Model):
+  first_name = models.TextField(blank=False)
+  last_name = models.TextField(blank=False)
+  city = models.TextField(blank=False)
+  email_address = models.TextField(blank=False)
+  profile_image_url = models.URLField(blank=True)
+  #used to store login info for profile user.
+  user = models.OneToOneField(User, on_delete=models.CASCADE)
+
+  def __str__(self):
+    return f"{self.first_name} {self.last_name}"
+
 class GameScores(models.Model):
   '''
   Stores the fake Tomatometer information for each game, as

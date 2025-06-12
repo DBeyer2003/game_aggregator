@@ -47,21 +47,28 @@
 
     <!--Displays limited number of games per page.-->
     {% if is_paginated %}
+
+    
     
     <div style="margin-top:10px; margin-bottom:10px; margin-left:25px;" class="page">
         <!--link to the game's previous page.-->
         {% if page_obj.has_previous %}
+            <a style="font-family:cursive;" href="?{% param_replace page=1 %}">First</a>
             {% if page_obj.previous_page_number != 1 %}
                 <a style="font-family:cursive;" href="?{% param_replace page=page_obj.previous_page_number %}">Previous</a>
             {% endif %}
 
         {% endif %}
+
+        <span style="font-family:cursive;">Page {{ page_obj.number }} of {{ page_obj.paginator.num_pages }}.</span>
+
         <!--Link to the game's next page.-->
         {% if page_obj.has_next %}
-            <span style="font-family:cursive;">Page {{ page_obj.number }} of {{ page_obj.paginator.num_pages }}.</span>
+            
             {% if page_obj.next_page_number != paginator.num_pages %}
                 <a style="font-family:cursive;" href="?{% param_replace page=page_obj.next_page_number %}">Next</a>
             {% endif %}
+            <a style="font-family:cursive;" href="?{% param_replace page=page_obj.paginator.num_pages %}">Last</a>
         {% endif %}
     </div>
 

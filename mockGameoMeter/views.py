@@ -25,6 +25,13 @@ def home_page_view(request):
 
   return render(request,template_name,context)
 
+#Used to show an individual's profile page
+class ShowProfilePageView(DetailView):
+  '''A view to show an individual profile page.'''
+  model = Profile 
+  template_name = 'mockGameoMeter/show_profile.html'
+  context_object_name = 'profile'
+
 class ShowAllGamesView(ListView):
   '''
   Displays a list of every game stored in the database, with the correspoding

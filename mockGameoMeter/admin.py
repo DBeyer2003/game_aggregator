@@ -5,3 +5,4 @@ from .models import *
 admin.site.register(GameScores)
 admin.site.register(GameInfo)
 admin.site.register(MetaBars)
+admin.site.register(Profile)

@@ -9,5 +9,6 @@ urlpatterns = [
   path(r'all_games', views.ShowAllGamesView.as_view(), name="all_games"),
   path(r'search_results', views.SearchResultsView.as_view(), name="search_results"),
   path(r'game/<int:pk>', views.ShowGameDetailsView.as_view(), name="game_details"),
-  path(r'game/<int:pk>/update_scores', views.UpdateGameScoresView.as_view(), name="update_scores")
+  path(r'game/<int:pk>/update_scores', views.UpdateGameScoresView.as_view(), name="update_scores"),
+  path(r'profile/<int:pk>', views.ShowProfilePageView.as_view(), name="show_profile"), 
 ]
